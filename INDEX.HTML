@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glide Table Tennis Academy | Professional Training</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+        
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">GT<span>TA</span></div>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#methodology">Methodology</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with 3D Video -->
+    <section class="hero" id="home">
+        <div class="video-container">
+            <video id="hero-video" autoplay muted loop playsinline>
+                <!-- Source: Pexels (free to use) -->
+                <source src="trial.mp4" >
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1>Glide Table Tennis Academy</h1>
+            <p class="tagline">Learn the Game the Right Way</p>
+            <p>Professional training for players of all levels. Develop your skills with our world-class coaching staff and cutting-edge training methodology.</p>
+            <div class="hero-btns">
+                <a href="#programs" class="btn">Book a Trial</a>
+                <a href="#about" class="btn btn-outline" style="color: #fff;">Learn More</a>
+            </div>
+        </div>
+        
+        <!-- <div class="video-controls">
+            <button class="video-control-btn" id="play-pause">
+                <i class="fas fa-pause"></i>
+            </button>
+            <button class="video-control-btn" id="mute-unmute">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div> -->
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Mission & Vision</h2>
+                    <p>Founded in 2021, Glide Table Tennis Academy (GTTA) has established itself as a premier training facility for table tennis enthusiasts and competitive players alike. Our mission is to develop players who excel not only in technique but also in sportsmanship and mental fortitude.</p>
+                    <p>We envision a future where our players represent their countries at international competitions, bringing glory to themselves and their communities through the sport they love.</p>
+                    <p>Our state-of-the-art facility features 8 professional tables, robotic training systems, video analysis technology, and a dedicated fitness area designed specifically for table tennis athletes.</p>
+                    <br>
+                    <a href="#contact" class="btn">Join Our Academy Today!</a>
+                </div>
+                <div class="about-image">
+                    <img src="tables.jpeg" alt="GTTA Training Facility">
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Training Programs</h2>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-table-tennis-paddle-ball"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Beginner Training</h3>
+                        <p>Learn the fundamentals of grip, stance, and basic strokes. Develop coordination and ball control through structured drills designed for new players.</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Advanced & Elite Coaching</h3>
+                        <p>Personalized training programs for competitive players focusing on technical refinement, tactical development, and match preparation.</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Fitness & Mental Conditioning</h3>
+                        <p>Specialized physical training and mental resilience programs to enhance performance under pressure and prevent injuries.</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-chess-board"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Match Play & Tournament Exposure</h3>
+                        <p>Regular competitive sessions and participation in local, state, and national tournaments with coaching support.</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-campground"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3>Intensive Camps</h3>
+                        <p>Week-long training camps during school breaks featuring guest coaches, specialized workshops, and competitive match play.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section class="methodology" id="methodology">
+        <div class="container">
+            <div class="section-title">
+                <h2>Training Methodology</h2>
+            </div>
+            <div class="methodology-content">
+                <div class="methodology-text">
+                    <h3>Physical Approach</h3>
+                    <p>Our training emphasizes proper biomechanics and efficient movement patterns. Players develop explosive footwork, core stability, and stroke consistency through progressive drills that build muscle memory and coordination.</p>
+                    
+                    <h3>Technological Approach</h3>
+                    <p>We integrate cutting-edge technology into our training programs, including high-speed video analysis, ball trajectory tracking systems, and robotic trainers that simulate match situations with precision.</p>
+                    
+                    <h3>Success Pathway</h3>
+                    <p>Our systematic approach ensures comprehensive player development:</p>
+                </div>
+                <div class="methodology-image">
+                    <div class="flow-diagram">
+                        <div class="flow-step">
+                            <h3>Technique</h3>
+                            <p>Mastering stroke mechanics and footwork</p>
+                        </div>
+                        <div class="flow-step">
+                            <h3>Fitness</h3>
+                            <p>Developing strength, speed and endurance</p>
+                        </div>
+                        <div class="flow-step">
+                            <h3>Strategy</h3>
+                            <p>Tactical awareness and match planning</p>
+                        </div>
+                        <div class="flow-step">
+                            <h3>Success</h3>
+                            <p>Achieving competitive excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Achievements</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>200+</h3>
+                    <p>Tournament Medals over Various Events</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <h3>10</h3>
+                    <p>State Representation in National</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>25</h3>
+                    <p>Times Position Holders in State Championships</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>100+</h3>
+                    <p>Players Trained</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 40px;">
+                <a href="#gallery" class="btn">See Our Champions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meet Our Family </h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-img">
+                        <img src="gttafamily.jpeg" alt="Our Family">
+                    </div>
+                    <!-- <div class="team-info">
+                        <h3>Zhang Wei</h3>
+                        <p>Head Coach</p>
+                        <p>Former Chinese National Team player with 15 years coaching experience</p>
+                    </div> -->
+                </div>
+                <div class="team-member">
+                    <div class="team-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fitness Coach">
+                    </div>
+                    <!-- <div class="team-info">
+                        <h3>Maria Rodriguez</h3>
+                        <p>Fitness Coach</p>
+                        <p>Specialist in table tennis-specific conditioning and injury prevention</p>
+                    </div> -->
+                </div>
+                <div class="team-member">
+                    <div class="team-img">
+                        <img src="https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Junior Coach">
+                    </div>
+                    <!-- <div class="team-info">
+                        <h3>David Chen</h3>
+                        <p>Junior Development Coach</p>
+                        <p>Former U.S. National Junior Champion with a passion for youth development</p>
+                    </div> -->
+                </div>
+                <div class="team-member">
+                    <div class="team-img">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sports Psychologist">
+                    </div>
+                    <!-- <div class="team-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p>Sports Psychologist</p>
+                        <p>Helping players develop mental toughness and competitive mindset</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="yoga.jpeg" alt="yoga Sessions">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tournament">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600250395178-40fe752e5187?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Coaching">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fitness Training">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1593111774240-d529f12e5d54?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Academy Facility">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600250395195-85a1b7b3f8e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team Celebration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Gillco international School,<br>Kharar, SAS NAGAR,140301</p>
+                            <p>Punjab, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9878565889</p>
+                            <p>+91 8283011866</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@gttacademy.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Tuesday - Sunday: 4:00 PM - 9:00 PM</p>
+                            <p>Monday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-links">
+                    <div class="footer-logo">GT<span>TA</span></div>
+                    <p>Glide Table Tennis Academy is dedicated to developing champions on and off the table through professional training and holistic player development.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#methodology">Methodology</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li><a href="#programs">Beginner Training</a></li>
+                        <li><a href="#programs">Advanced Coaching</a></li>
+                        <li><a href="#programs">Fitness & Mental</a></li>
+                        <li><a href="#programs">Tournament Exposure</a></li>
+                        <li><a href="#programs">Intensive Camps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Gillco international School,Kharar, SAS NAGAR,140301, Punjab, India
+                        <li><i class="fas fa-phone"></i> +91 9878565889</li>
+                        <li><i class="fas fa-envelope"></i> info@gttacademy.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Glide Table Tennis Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    navMenu.classList.remove('show');
+                }
+            });
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.2)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+            }
+        });
+        
+        // // Video Controls
+        // const video = document.getElementById('hero-video');
+        // const playPauseBtn = document.getElementById('play-pause');
+        // const muteUnmuteBtn = document.getElementById('mute-unmute');
+        
+        // // Play/Pause functionality
+        // playPauseBtn.addEventListener('click', () => {
+        //     if (video.paused) {
+        //         video.play();
+        //         playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+        //     } else {
+        //         video.pause();
+        //         playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+        //     }
+        // });
+        
+        // // Mute/Unmute functionality
+        // muteUnmuteBtn.addEventListener('click', () => {
+        //     if (video.muted) {
+        //         video.muted = false;
+        //         muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+        //     } else {
+        //         video.muted = true;
+        //         muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+        //     }
+        // });
+        
+        // // Autoplay video with controls
+        // video.addEventListener('click', () => {
+        //     if (video.paused) {
+        //         video.play();
+        //         playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
+        //     } else {
+        //         video.pause();
+        //         playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
+        //     }
+        // });
+    </script>
+</body>
+</html>
